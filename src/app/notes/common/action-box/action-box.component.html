@@ -1,10 +1,10 @@
-<div class="action-box" (click) = "makeEditable();">
+<div [ngClass]="['action-box',actionBoxModel.actionType]" (click) = "makeEditable();">
   <div class="pencil-positition">
     <a href="#" class="pencil">
           <span class="glyphicon glyphicon-pencil "></span>
     </a>
   </div>
-  <textarea #ta (blur)="actionBoxModel.actionComment=ta.value" [value]="actionBoxModel.actionComment"></textarea>
+  <textarea [ngClass]="['txtArea',actionBoxModel.actionType]" #ta (blur)="actionBoxModel.actionComment=ta.value" [value]="actionBoxModel.actionComment"></textarea>
   <div class="trash-positition">
     <a href="#" class="pencil">
           <span class="glyphicon glyphicon-trash"></span>

@@ -1,12 +1,20 @@
 .action-box {
     width: 100%;
     height: 75px;
-    background-color:blueviolet;
     box-shadow: 2px 2px 5px grey;
     font-size: smaller;
     font-style: italic;
     color: white;
     position: relative;
+}
+.wentwell{
+ background-color:orange;
+}
+.needtoimprove{
+     background-color:green;
+}
+.actionitem{
+     background-color:purple;
 }
 .pencil{
     color: white;
@@ -26,9 +34,8 @@
     text-align: right;
     width: 100%
 }
-textarea {
+.txtArea {
     -webkit-appearance: textarea;
-    background-color: blueviolet;
     color: white;
     -webkit-rtl-ordering: logical;
     user-select: text;

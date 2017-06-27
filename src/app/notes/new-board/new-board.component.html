@@ -1,11 +1,23 @@
 <div class="row">
-  <div class="col-sm-4"> <a href="javascript:void(0)" class="pencil" (click)="addNewActionBox();">
+  <div class="col-sm-4"> <a href="javascript:void(0)" class="pencil" (click)="addNewActionBox('wentwell');">
           <span class="glyphicon glyphicon-plus"></span> <b>Went well</b>
       </a>
-      <div class="row-fluid" *ngFor="let item of actionBoxModel">
+      <div class="row-fluid" *ngFor="let item of getActionBoxesForType('wentwell')">
         <app-action-box [actionBoxModel]="item"></app-action-box><br>
       </div>
   </div>
-  <div class="col-sm-4">.col-sm-4</div>
-  <div class="col-sm-4">.col-sm-4</div>
+  <div class="col-sm-4"> <a href="javascript:void(0)" class="pencil" (click)="addNewActionBox('needtoimprove');">
+          <span class="glyphicon glyphicon-plus"></span> <b>Need to improve</b>
+      </a>
+      <div class="row-fluid" *ngFor="let item of getActionBoxesForType('needtoimprove')">
+        <app-action-box [actionBoxModel]="item"></app-action-box><br>
+      </div>
+  </div>
+ <div class="col-sm-4"> <a href="javascript:void(0)" class="pencil" (click)="addNewActionBox('actionitem');">
+          <span class="glyphicon glyphicon-plus"></span> <b>Action Item</b>
+      </a>
+      <div class="row-fluid" *ngFor="let item of getActionBoxesForType('actionitem')">
+        <app-action-box [actionBoxModel]="item"></app-action-box><br>
+      </div>
+  </div>
 </div>
