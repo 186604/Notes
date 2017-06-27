@@ -1,0 +1,53 @@
+.action-box {
+    width: 100%;
+    height: 75px;
+    background-color:blueviolet;
+    box-shadow: 2px 2px 5px grey;
+    font-size: smaller;
+    font-style: italic;
+    color: white;
+    position: relative;
+}
+.pencil{
+    color: white;
+}
+.pencil-positition{
+   position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px;
+        text-align: right;
+    width: 100%
+}
+.trash-positition{
+   position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    width: 100%
+}
+textarea {
+    -webkit-appearance: textarea;
+    background-color: blueviolet;
+    color: white;
+    -webkit-rtl-ordering: logical;
+    user-select: text;
+    flex-direction: column;
+    resize: auto;
+    cursor: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+    padding: 2px;
+    height: 100%;
+    width: 100%;
+    padding: .3em .5em;
+    padding-bottom: 0;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    resize: none;
+    border: 0;
+}

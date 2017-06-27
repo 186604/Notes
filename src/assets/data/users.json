@@ -1,0 +1,23 @@
+[
+    {
+        "username": "186604",
+        "password": "test123",
+        "firstName": "Rajan",
+        "lastName": "Alagarsamy",
+        "numberOfWrongAttempts": 0
+    },
+    {
+        "username": "186605",
+        "password": "test123",
+        "firstName": "Hemanth",
+        "lastName": "Rajan",
+        "numberOfWrongAttempts": 0
+    },
+    {
+        "username": "186606",
+        "password": "test123",
+        "firstName": "Kumar",
+        "lastName": "Kannan",
+        "numberOfWrongAttempts": 0
+    }
+]
